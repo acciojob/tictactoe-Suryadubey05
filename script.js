@@ -42,7 +42,7 @@ cells.forEach(cell => {
     cell.textContent = currentSymbol;
 
     if (checkWinner()) {
-      messageDiv.textContent = `${currentPlayer}, congratulations you won!`;
+      messageDiv.textContent = `${currentPlayer} congratulations you won!`;
       disableBoard();
       return;
     }
